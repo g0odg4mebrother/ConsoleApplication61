@@ -10,7 +10,7 @@ private:
     string major;
 
 public:
-    Student(const string& name, int age, const string& major)
+    Student( string name, int age,string major)
         : name(name), age(age), major(major) {
     }
 
